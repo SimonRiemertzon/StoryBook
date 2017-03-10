@@ -10,10 +10,18 @@ import SpriteKit
 import GameplayKit
 
 class GameScene: SKScene {
+    
+    var thePlayer:SKSpriteNode = SKSpriteNode()
  
     
     override func didMove(to view: SKView) {
-        
+        if let somePlayer:SKSpriteNode = self.childNode(withName: "Player") as? SKSpriteNode {
+            thePlayer = somePlayer
+            thePlayer.physicsBody?.isDynamic = false
+            print("Playernode Assigned")
+        } else {
+            print("Assignment failed")
+        }
     }
     
     
