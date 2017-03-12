@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB8FAA151E75824D00DE8C7F /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FAA141E75824D00DE8C7F /* SKMultilineLabel.swift */; };
 		DB9859AC1E6F536800D30BE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9859AB1E6F536800D30BE5 /* AppDelegate.swift */; };
 		DB9859AE1E6F536800D30BE5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB9859AD1E6F536800D30BE5 /* GameScene.sks */; };
 		DB9859B01E6F536800D30BE5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB9859AF1E6F536800D30BE5 /* Actions.sks */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB8FAA141E75824D00DE8C7F /* SKMultilineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMultilineLabel.swift; sourceTree = "<group>"; };
 		DB9859A81E6F536700D30BE5 /* StoryBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9859AB1E6F536800D30BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB9859AD1E6F536800D30BE5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				DB9859B81E6F536800D30BE5 /* Assets.xcassets */,
 				DB9859BA1E6F536800D30BE5 /* LaunchScreen.storyboard */,
 				DB9859BD1E6F536800D30BE5 /* Info.plist */,
+				DB8FAA141E75824D00DE8C7F /* SKMultilineLabel.swift */,
 			);
 			path = StoryBook;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			files = (
 				DB9859B21E6F536800D30BE5 /* GameScene.swift in Sources */,
 				DB9859B41E6F536800D30BE5 /* GameViewController.swift in Sources */,
+				DB8FAA151E75824D00DE8C7F /* SKMultilineLabel.swift in Sources */,
 				DB9859AC1E6F536800D30BE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +315,7 @@
 				DB9859C21E6F536800D30BE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
